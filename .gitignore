@@ -1,0 +1,32 @@
+# Entornos virtuales
+venv/
+.env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos temporales / logs
+*.log
+*.tmp
+*.swp
+
+# Archivos de configuración de usuario (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.code-workspace
+
+# Salidas de pruebas
+*.out
+*.result
+
+# Paquetes instalados (opcional si usas requirements.txt)
+*.egg-info/
+dist/
+build/
+
+# Archivos sensibles o temporales
+.env
+secrets.txt
+clave_privada.pem
+clave_publica.pem
